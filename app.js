@@ -28,11 +28,7 @@ app.use(express.json());
 app.use("/api/v1/transactions", router);
 app.use("/api/v1/user", userRouter);
 // Static files
-app.use(express.static(path.join(__dirname, 'front')));
-
-app.get('*', function (req, res) {
-  res.sendFile(path.join(__dirname, 'front', 'index.html'));
-});
+app.use(express.static(path.join(__dirname, "front", "dist")));
 
 // Port
 const PORT = 7000;
