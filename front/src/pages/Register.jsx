@@ -13,7 +13,7 @@ const Register = () => {
     console.log(typeof form.getFieldsValue());
     try {
       const response = await fetch(
-        "http://localhost:7000/api/v1/user/register",
+        "https://money-master-kx3c.onrender.com/api/v1/user/register",
         {
           method: "POST",
           headers: {
