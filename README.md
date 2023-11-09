@@ -1,5 +1,5 @@
 # Money Master
-Money Tracking Website called Money Master that will help users manage their finances more effectively. This app will be built using modern technologies, including React for the frontend, Node.js for the backend, and MongoDB as the database. The goal of this project is to provide users with a user-friendly platform to track their income, expenses, and savings, allowing them to make informed financial decisions.
+Money tracking website called Money Master will help users manage their finances more effectively. This app will be built using modern technologies, including React for the front end, Node.js for the back end, and MongoDB as the database. The goal of this project is to provide users with a user-friendly platform to track their income, expenses, and savings, allowing them to make informed financial decisions.
 
 
 # CS5610-Project-two
@@ -68,8 +68,8 @@ Efficient data retrieval for quick access to user-specific information.
 
 [Video]                     
 
-[Slides]
+[Slides] (https://docs.google.com/presentation/d/1Em2MNwgLXRIoj6RzVnWULDJ3lMkFilcDEfGB9ccW4AA/edit?usp=sharing)
 
 
 ###  Copyright:
-This webpage takes advantage of templates from bootstrap. This project is under MIT license. All modified image resources could be distributed with same methods. Photos of myself will be shared with CC 4.0 BY-NC-ND license.
+This project is under MIT license. All modified image resources could be distributed with same methods. Photos of myself will be shared with CC 4.0 BY-NC-ND license.
