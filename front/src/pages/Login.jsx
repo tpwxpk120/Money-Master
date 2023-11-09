@@ -10,7 +10,6 @@ const Login = () => {
   const navigate = useNavigate();
   const [form] = Form.useForm();
 
-  // Simulated login logic (Replace this with actual login logic)
   const submitHandler = async (values) => {
     try {
       const response = await fetch("https://money-master-kx3c.onrender.com/api/v1/user/login", {
