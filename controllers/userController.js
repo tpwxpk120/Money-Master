@@ -1,9 +1,8 @@
 import { connectToMongoDB } from "../db/mydb.js";
-
+var db = await connectToMongoDB()
 // login callback
 const loginController = async (req, res) => {
   try {
-    var db = await connectToMongoDB();
     const newUser = {
       email: req.body.email,
       password: req.body.password,
@@ -35,7 +34,6 @@ const loginController = async (req, res) => {
 //Register Callback
 const registerController = async (req, res) => {
   try {
-    var db = await connectToMongoDB();
     const data = req.body
     const newUser = {
       name: data.name,
