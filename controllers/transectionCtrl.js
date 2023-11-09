@@ -1,10 +1,10 @@
 // transactionController.js
 import { connectToMongoDB } from "../db/mydb.js";
 import { ObjectId } from "mongodb";
-
+var db = await connectToMongoDB();
 const getAllTransection = async (req, res) => {
   try {
-    var db = await connectToMongoDB();
+
     const qury = {
       userId: req.query["userId"],
     };
@@ -20,7 +20,7 @@ const getAllTransection = async (req, res) => {
 
 const deleteTransection = async (req, res) => {
   try {
-    const db = await connectToMongoDB();
+    
     const objectIdToDelete = new ObjectId(req.body.transectionId);
     console.log(objectIdToDelete);
     if (!ObjectId.isValid(req.body.transectionId)) {
@@ -43,7 +43,7 @@ const deleteTransection = async (req, res) => {
 
 const editTransection = async (req, res) => {
   try {
-    const db = await connectToMongoDB();
+    
     const trans = {
       userid: req.body.userid,
       type: req.body.type,
@@ -73,8 +73,7 @@ const editTransection = async (req, res) => {
 
 const addTransection = async (req, res) => {
   try {
-    console.log(req.body)
-    const db = await connectToMongoDB();
+    
     await db.collection("transections").insertOne(req.body);
     res.status(201).send("Transection Created");
   } catch (error) {
