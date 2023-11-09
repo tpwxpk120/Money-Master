@@ -62,7 +62,7 @@ const HomePage = () => {
     const getAllTransactions = async () => {
       try {
         const response = await fetch(
-          "http://localhost:7000/api/v1/transactions/get-transection?userId=" +
+          "https://money-master-kx3c.onrender.com/api/v1/transactions/get-transection?userId=" +
             JSON.parse(localStorage.getItem("user")),
           {
             method: "GET",
@@ -96,7 +96,7 @@ const HomePage = () => {
     console.log(record);
     console.log(record["_id"]);
     try {
-      fetch("http://localhost:7000/api/v1/transactions/delete-transection", {
+      fetch("https://money-master-kx3c.onrender.com/api/v1/transactions/delete-transection", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -143,7 +143,7 @@ const HomePage = () => {
     };
     console.log(item);
     try {
-      fetch("http://localhost:7000/api/v1/transactions/add-transection", {
+      fetch("https://money-master-kx3c.onrender.com/api/v1/transactions/add-transection", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -184,7 +184,7 @@ const HomePage = () => {
         description: form.getFieldsValue([["description"]]).description,
       };
       console.log(item);
-      fetch("http://localhost:7000/api/v1/transactions/edit-transection", {
+      fetch("https://money-master-kx3c.onrender.com/api/v1/transactions/edit-transection", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
