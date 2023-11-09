@@ -2,6 +2,8 @@
   "name": "myproject3",
   "version": "0.0.0",
   "type": "module",
+  "author": "Peng Tao",
+  "license": "MIT",
   "private": true,
   "scripts": {
     "start": "node ./node_modules/nodemon/bin/nodemon.js ./bin/www.js"
