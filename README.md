@@ -66,7 +66,7 @@ Efficient data retrieval for quick access to user-specific information.
 ### Demonstration:
 [Mockup] (https://www.figma.com/file/Ig5iMalQSC6EG7ZuqGCPqf/Untitled?type=whiteboard&node-id=0%3A1&t=WwTkSOOF0sqjxs6A-1) 
 
-[Video]                     
+[Video] (https://youtu.be/XUFOY1krlHA)                    
 
 [Slides] (https://docs.google.com/presentation/d/1Em2MNwgLXRIoj6RzVnWULDJ3lMkFilcDEfGB9ccW4AA/edit?usp=sharing)
 
