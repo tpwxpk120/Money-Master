@@ -13,7 +13,7 @@ const Login = () => {
   // Simulated login logic (Replace this with actual login logic)
   const submitHandler = async (values) => {
     try {
-      const response = await fetch("http://localhost:7000/api/v1/user/login", {
+      const response = await fetch("https://money-master-kx3c.onrender.com/api/v1/user/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
