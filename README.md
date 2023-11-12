@@ -43,9 +43,6 @@ Efficient data retrieval for quick access to user-specific information.
 2)  Add a .env file example: MONGODB_URI = yoururl .
 3) Install project dependencies using npm in the backend: npm install
 4) Run the server: npm start
-5) Enter frontend: cd front
-6) install project dependencies using npm: npm install
-7) Run static frontend: npm run dev run 
 
 
 ### Preview:
