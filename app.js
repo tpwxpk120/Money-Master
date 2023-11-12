@@ -31,7 +31,7 @@ app.use("/api/v1/user", userRouter);
 app.use(express.static(path.join(__dirname, "front", "dist")));
 
 // Port
-const PORT = 3000;
+const PORT = 7000;
 
 // Listen to the server
 app.listen(PORT, () => {
