@@ -27,14 +27,18 @@
   align-items: center;
 }
 
-/* Add this CSS to move the left and right items */
+
 .navbar .navbar-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-/* Adjust the spacing between the left and right items */
 .nav-item:nth-child(1) {
-  margin-right: 20px; /* Add spacing between the left and right items */
+  margin-right: 20px; 
+}
+
+footer {
+  display: flex;
+  justify-content: center;
 }
