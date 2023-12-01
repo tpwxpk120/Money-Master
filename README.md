@@ -42,7 +42,25 @@ Efficient data retrieval for quick access to user-specific information.
 1) Clone the repository to your local directory:(https://github.com/tpwxpk120/Money-Master.git)
 2)  Add a .env file example: MONGODB_URI = yoururl .
 3) Install project dependencies using npm in the backend: npm install
-4) Run the server: npm start
+   you need more specific instruction :
+Navigate into the directory:
+
+```
+cd
+```
+
+3. Install the required dependencies:
+
+```
+npm install
+```
+
+4. Start the server:
+
+```
+npm start
+```
+5) Run the server: npm start
 
 
 ### Preview:
